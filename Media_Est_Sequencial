@@ -1,0 +1,22 @@
+Algoritmo "Calculadora de Combustivel Gasto"
+
+Var
+
+   km, comb, media : real
+
+Inicio
+
+   escreval("Cálculadora de Combustível para a sua Viagem dos Sonhos!")
+   escreval("Escreva aqui a quantidade de kilômetros que você percorreu:")
+   leia(km)
+   escreval("Agora digite o quanto foi abastecido:")
+   leia(comb)
+
+   media <- comb / km
+
+   escreval("Aqui está todos os dados desta viagem!")
+   escreval("Kilometros percorrido: " ,km)
+   escreval("Combustível gasto: " ,comb)
+   escreval("Média de consumo do carro:" , km / comb:4:3)
+
+Fimalgoritmo
