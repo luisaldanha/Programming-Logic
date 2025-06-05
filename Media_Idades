@@ -1,0 +1,24 @@
+Algoritmo "Média De Idades"
+
+Var
+
+   idade1, idade2 : inteiro
+   nome1, nome2 : caractere
+   media : real
+   
+Inicio
+
+   escreva("Nome 1:")
+   leia(nome1)
+   escreva("Idade 1:")
+   leia(idade1)
+   escreva("Nome 2:")
+   leia(nome2)
+   escreva("Idade 2:")
+   leia(idade2)
+
+   media <- (idade1 + idade2) / 2
+
+   escreval("A média de Idade entre os dois é:", media)
+
+Fimalgoritmo
